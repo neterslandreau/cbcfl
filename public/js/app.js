@@ -49779,6 +49779,8 @@ module.exports = function(module) {
  */
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+__webpack_require__(/*! ./diner */ "./resources/js/diner.js");
+
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 /**
  * The following block of code may be used to automatically register your
@@ -49914,6 +49916,110 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
+
+/***/ }),
+
+/***/ "./resources/js/diner.js":
+/*!*******************************!*\
+  !*** ./resources/js/diner.js ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+$(function () {
+  Gmap.populateMap('4650 SW 30th Ave, Fort Lauderdale, FL 33312', 'Community Bible Church');
+});
+
+function checkboxlimit(checkgroup, limit) {
+  var checkgroup = checkgroup;
+  var limit = limit;
+
+  for (var i = 0; i < checkgroup.length; i++) {
+    checkgroup[i].onclick = function () {
+      var checkedcount = 0;
+
+      for (var i = 0; i < checkgroup.length; i++) {
+        checkedcount += checkgroup[i].checked ? 1 : 0;
+      }
+
+      if (checkedcount > limit) {
+        alert("You can only select  " + limit + " items");
+        this.checked = false;
+      }
+    };
+  }
+}
+/**
+ * Gmap application wide namespace
+ */
+
+
+var Gmap = {};
+
+Gmap.populateMap = function (addr, title, canvas) {
+  var displayElement;
+
+  if (typeof canvas != 'undefined') {
+    displayElement = canvas;
+  } else {
+    displayElement = 'map_canvas';
+  }
+
+  var Geocoder = new google.maps.Geocoder();
+  Geocoder.geocode({
+    address: addr
+  }, function (gcresults) {
+    var mapProperties = {
+      center: gcresults[0].geometry.location,
+      zoom: 13,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    var contentString = '<div>' + '<p>Community Bible Church</p>' + '</div>';
+    var infowindow = new google.maps.InfoWindow({
+      content: contentString
+    });
+    var title = 'Community Bible Church';
+    var marker = new google.maps.Marker({
+      position: gcresults[0].geometry.location,
+      title: title,
+      map: map
+    });
+    marker.addListener('click', function () {
+      // console.log('info clicked');
+      infowindow.open(map, marker);
+    });
+    var map = new google.maps.Map(document.getElementById(displayElement), mapProperties);
+    marker.setMap(map);
+  });
+};
+
+Gmap.getLocation = function () {
+  if (navigator.geolocation) {
+    browserSupportFlag = true;
+    navigator.geolocation.getCurrentPosition(function (position, error) {
+      initialLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+      var Geocoder = new google.maps.Geocoder();
+      Geocoder.geocode({
+        latLng: initialLocation
+      }, function (gcresults) {
+        var city_name = gcresults[0].address_components[2].long_name;
+        var state_abbr = gcresults[0].address_components[4].short_name;
+        $('#textPosition').html(city_name + ', ' + state_abbr);
+        $('#browserLocation').html(city_name + ', ' + state_abbr);
+        var pdata = {
+          browserLocation: city_name + ', ' + state_abbr
+        };
+        var Url = 'sessions/session_handler.php';
+        $('#confirmLocation').live('click', function () {
+          $.post(Url, pdata, function (results, data) {//						console.log(results);
+          });
+        });
+      });
+    });
+  } else {
+    console.log('need other way to get location');
+  }
+};
 
 /***/ }),
 
