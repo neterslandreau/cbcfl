@@ -6,12 +6,8 @@
         </div>
     </div>
 
-    <!-- Uncomment below if you wan to use dynamic maps --
-    <iframe src="https://www.google.com/maps/embed?
-    pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
-    -->
     <div class="col-md-12">
-        <div id="map_canvas" style="width: 100%; height: 240px;"></div>
+        <div id="map_canvas" style="width: 100%; height: 450px;"></div>
     </div>
 
     <div class="container wow fadeInUp mt-5">
@@ -22,26 +18,26 @@
                 <div class="info">
                     <div>
                         <i class="fa fa-map-marker"></i>
-                        <p>A108 Adam Street<br>New York, NY 535022</p>
+                        <p>4650 SW 30th Ave<br>Fort Lauderdale, FL 33312</p>
                     </div>
 
                     <div>
-                        <i class="fa fa-envelope"></i>
-                        <p>info@example.com</p>
+                        <i class="fas fa-envelope"></i>
+                        <p>info@cfcfl.org</p>
                     </div>
 
                     <div>
-                        <i class="fa fa-phone"></i>
-                        <p>+1 5589 55488 55s</p>
+                        <i class="fas fa-phone"></i>
+                        <p></p>
                     </div>
                 </div>
 
                 <div class="social-links">
-                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                    <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-                    <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-                    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                    <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="google-plus"><i class="fab fa-google-plus"></i></a>
+                    <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
                 </div>
 
             </div>

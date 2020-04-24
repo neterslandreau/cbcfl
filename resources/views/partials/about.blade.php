@@ -3,27 +3,34 @@
         <div class="row about-container">
 
             <div class="col-lg-6 content order-lg-1 order-2">
-                <h2 class="title">Few Words About Us</h2>
+                <h2 class="title">We’re Not That Kind of Church</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    You know, the church that claims to have a great reputation, but doesn’t seem to help its members or the community… That’s not us.
+                    At Community Bible Church of Dania Beach, we’re:
                 </p>
 
                 <div class="icon-box wow fadeInUp">
-                    <div class="icon"><i class="fa fa-shopping-bag"></i></div>
-                    <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-                    <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                    <div class="icon"><i class="fas fa-building"></i></div>
+                    <h4 class="title"><a href="">People</a></h4>
+                    <p class="description">More concerned about people than our building…</p>
                 </div>
 
                 <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="icon"><i class="fa fa-photo"></i></div>
-                    <h4 class="title"><a href="">Magni Dolores</a></h4>
-                    <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    <div class="icon"><i class="fas fa-user-friends"></i></div>
+                    <h4 class="title"><a href="">You</a></h4>
+                    <p class="description">More concerned about who you are than how much money you give…</p>
                 </div>
 
                 <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="icon"><i class="fa fa-bar-chart"></i></div>
-                    <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                    <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                    <div class="icon"><i class="fas fa-heart"></i></div>
+                    <h4 class="title"><a href="">Relationships</a></h4>
+                    <p class="description">More concerned about relationships than rules…</p>
+                </div>
+
+                <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="icon"><i class="fas fa-map-marked"></i></div>
+                    <h4 class="title"><a href="">Destination</a></h4>
+                    <p class="description">More concerned about where you’re going than where you came from…</p>
                 </div>
 
             </div>
