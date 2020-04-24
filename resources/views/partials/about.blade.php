@@ -2,14 +2,14 @@
     <div class="container">
         <div class="row about-container">
 
-            <div class="card mb-5">
-                <div class="card-body">
-                    <blockquote class="blockquote mb-0">
-                        <p>{{ $contact_scripture }}</p>
-                        <footer class="blockquote-footer">{{ $contact_reference }}</footer>
-                    </blockquote>
-                </div>
-            </div>
+{{--            <div class="card mb-5">--}}
+{{--                <div class="card-body">--}}
+{{--                    <blockquote class="blockquote mb-0">--}}
+{{--                        <p>{{ $contact_scripture }}</p>--}}
+{{--                        <footer class="blockquote-footer">{{ $contact_reference }}</footer>--}}
+{{--                    </blockquote>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
             <div class="col-lg-6 content order-lg-1 order-2">
                 <h2 class="title">We’re Not That Kind of Church</h2>

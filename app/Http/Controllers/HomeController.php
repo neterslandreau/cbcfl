@@ -34,6 +34,8 @@ class HomeController extends Controller
             'church_address' => '4650 SW 30th Ave Fort Lauderdale, FL 33312',
             'church_email' => 'info@cbcfl.org',
             'church_phone' => '954-xxx-xxxx',
+            'team_scripture' => 'So Christ himself gave the apostles, the prophets, the evangelists, the pastors and teachers, to equip his people for works of service, so that the body of Christ may be built up',
+            'team_reference' => 'Ephesians 4:11-12',
         ];
         return view('front', $data);
     }

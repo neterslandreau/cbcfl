@@ -576,10 +576,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     line-height: 24px;
     font-size: 14px;
 }
+/*
 #about .card-body {
     background-color: #f6decd;
+    background: url(/img/verse-background.png);
 }
-
+*/
 /* Facts Section
 --------------------------------*/
 #facts {
@@ -672,10 +674,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 14px;
     line-height: 24px;
 }
+/*
 #services .card-body {
     background-color: #f6ffcd;
+    background: url(/img/verse-background.png);
 }
-
+*/
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
@@ -869,10 +873,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 18px;
     margin: 0 2px;
 }
+/*
 #team .card-body {
     background-color: #f6deff;
+    background: url(/img/verse-background.png);
 }
-
+*/
 /* Contact Section
 --------------------------------*/
 #contact {
@@ -997,10 +1003,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .php-email-form button[type="submit"]:hover {
     background: #51d8ad;
 }
+/*
 #contact .card-body {
     background-color: #f6decd;
+    background: url(/img/verse-background.png);
 }
-
+*/
 @-webkit-keyframes animate-loading {
     0% {
         transform: rotate(0deg);
