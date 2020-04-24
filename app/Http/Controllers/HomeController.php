@@ -28,6 +28,13 @@ class HomeController extends Controller
 
     public function front()
     {
-        return view('front');
+        $data = [
+            'contact_scripture' => 'A new command I give you: Love one another. As I have loved you, so you must love one another. By this everyone will know that you are my disciples, if you love one another.',
+            'contact_reference' => 'John 13:34-35',
+            'church_address' => '4650 SW 30th Ave Fort Lauderdale, FL 33312',
+            'church_email' => 'info@cbcfl.org',
+            'church_phone' => '954-xxx-xxxx',
+        ];
+        return view('front', $data);
     }
 }

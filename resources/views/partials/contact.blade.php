@@ -3,11 +3,11 @@
         <div class="section-header">
             <h3 class="section-title">Contact</h3>
 
-            <div class="card">
+            <div class="card mb-5">
                 <div class="card-body">
                     <blockquote class="blockquote mb-0">
-                        <p>A new command I give you: Love one another. As I have loved you, so you must love one another. By this everyone will know that you are my disciples, if you love one another.</p>
-                        <footer class="blockquote-footer">John 13:34-35</footer>
+                        <p>{{ $contact_scripture }}</p>
+                        <footer class="blockquote-footer">{{ $contact_reference }}</footer>
                     </blockquote>
                 </div>
             </div>
@@ -27,17 +27,17 @@
                 <div class="info">
                     <div>
                         <i class="fas fa-map-marker fa-2x" style="float: left;"></i>
-                        <p>4650 SW 30th Ave<br>Fort Lauderdale, FL 33312</p>
+                        <p>{{ $church_address }}</p>
                     </div>
 
                     <div>
                         <i class="fas fa-envelope fa-2x" style="float: left;"></i>
-                        <p>info@cfcfl.org</p>
+                        <p>{{ $church_email }}</p>
                     </div>
 
                     <div>
                         <i class="fas fa-phone fa-2x" style="float: left;"></i>
-                        <p>954-xxx-xxxx</p>
+                        <p>{{ $church_phone }}</p>
                     </div>
                 </div>
 

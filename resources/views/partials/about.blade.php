@@ -2,6 +2,15 @@
     <div class="container">
         <div class="row about-container">
 
+            <div class="card mb-5">
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>{{ $contact_scripture }}</p>
+                        <footer class="blockquote-footer">{{ $contact_reference }}</footer>
+                    </blockquote>
+                </div>
+            </div>
+
             <div class="col-lg-6 content order-lg-1 order-2">
                 <h2 class="title">We’re Not That Kind of Church</h2>
                 <p>
@@ -28,7 +37,7 @@
                 </div>
 
                 <div class="icon-box wow fadeInUp">
-                    <div class="icon"><i class="fas fa-map-marked fsa-2x"></i></div>
+                    <div class="icon"><i class="fas fa-map-marked fa-2x"></i></div>
                     <h4 class="title"><a href="">Destination</a></h4>
                     <p class="description">More concerned about where you’re going than where you came from…</p>
                 </div>

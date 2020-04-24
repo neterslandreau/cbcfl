@@ -2,7 +2,17 @@
     <div class="container wow fadeInUp">
         <div class="section-header">
             <h3 class="section-title">Team</h3>
-            <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+
+            <div class="card mb-5">
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>{{ $contact_scripture }}</p>
+                        <footer class="blockquote-footer">{{ $contact_reference }}</footer>
+                    </blockquote>
+                </div>
+            </div>
+
+
         </div>
         <div class="row">
             <div class="col-lg-3 col-md-6">
