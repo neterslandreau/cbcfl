@@ -38,7 +38,7 @@ Gmap.populateMap = function(addr, title, canvas) {
             zoom: 13,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         };
-        var contentString = '<div>'+'<p>Community Bible Church</p>'+'</div>';
+        var contentString = '<div>'+'<p>Community Bible Church</p>'+'<p>4650 SW 30th Ave</p><p>Fort Lauderdale, FL 33312</p></div>';
         var infowindow = new google.maps.InfoWindow({
             content: contentString
         });
