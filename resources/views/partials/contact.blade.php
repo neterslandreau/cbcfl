@@ -2,7 +2,16 @@
     <div class="container wow fadeInUp">
         <div class="section-header">
             <h3 class="section-title">Contact</h3>
-            <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+
+            <div class="card">
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>A new command I give you: Love one another. As I have loved you, so you must love one another. By this everyone will know that you are my disciples, if you love one another.</p>
+                        <footer class="blockquote-footer">John 13:34-35</footer>
+                    </blockquote>
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -17,18 +26,18 @@
 
                 <div class="info">
                     <div>
-                        <i class="fa fa-map-marker"></i>
+                        <i class="fas fa-map-marker fa-2x" style="float: left;"></i>
                         <p>4650 SW 30th Ave<br>Fort Lauderdale, FL 33312</p>
                     </div>
 
                     <div>
-                        <i class="fas fa-envelope"></i>
+                        <i class="fas fa-envelope fa-2x" style="float: left;"></i>
                         <p>info@cfcfl.org</p>
                     </div>
 
                     <div>
-                        <i class="fas fa-phone"></i>
-                        <p></p>
+                        <i class="fas fa-phone fa-2x" style="float: left;"></i>
+                        <p>954-xxx-xxxx</p>
                     </div>
                 </div>
 

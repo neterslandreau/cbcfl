@@ -10,32 +10,31 @@
                 </p>
 
                 <div class="icon-box wow fadeInUp">
-                    <div class="icon"><i class="fas fa-building"></i></div>
+                    <div class="icon"><i class="fas fa-building fa-2x"></i></div>
                     <h4 class="title"><a href="">People</a></h4>
                     <p class="description">More concerned about people than our building…</p>
                 </div>
 
-                <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="icon"><i class="fas fa-user-friends"></i></div>
+                <div class="icon-box wow fadeInUp">
+                    <div class="icon"><i class="fas fa-user-friends fa-2x"></i></div>
                     <h4 class="title"><a href="">You</a></h4>
                     <p class="description">More concerned about who you are than how much money you give…</p>
                 </div>
 
-                <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="icon"><i class="fas fa-heart"></i></div>
+                <div class="icon-box wow fadeInUp">
+                    <div class="icon"><i class="fas fa-heart fa-2x"></i></div>
                     <h4 class="title"><a href="">Relationships</a></h4>
                     <p class="description">More concerned about relationships than rules…</p>
                 </div>
 
-                <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="icon"><i class="fas fa-map-marked"></i></div>
+                <div class="icon-box wow fadeInUp">
+                    <div class="icon"><i class="fas fa-map-marked fsa-2x"></i></div>
                     <h4 class="title"><a href="">Destination</a></h4>
                     <p class="description">More concerned about where you’re going than where you came from…</p>
                 </div>
 
             </div>
 
-            <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
         </div>
 
     </div>

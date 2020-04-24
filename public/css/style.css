@@ -556,7 +556,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-container .icon-box .icon i {
     color: #2dc997;
-    font-size: 24px;
+    font-size: 45px;
 }
 
 #about .about-container .icon-box .title {
@@ -877,11 +877,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .info {
-    color: #333333;
+    color: #2dc997;
 }
 
 #contact .info i {
-    font-size: 32px;
+    font-size: 62px;
     color: #2dc997;
     float: left;
 }
@@ -891,6 +891,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-bottom: 20px;
     line-height: 22px;
     font-size: 14px;
+    color: #000;
 }
 
 #contact .info .email p {
