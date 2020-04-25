@@ -1,6 +1,6 @@
 <header id="header">
 <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm">
-    <div class="container">
+    <div class="container-fluid">
         <a class="navbar-brand" href="{{ route('front') }}">
 {{--            {{ config('app.name', 'Laravel') }}--}}
             <img src="/img/cbcfl-logo.png">
@@ -17,7 +17,7 @@
             <!-- Right Side Of Navbar -->
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('front') }}#about">About Us</a>
+                    <a class="nav-link" href="{{ route('front') }}#about">{{ __('About Us') }}</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('front') }}#services">Ministries</a>
