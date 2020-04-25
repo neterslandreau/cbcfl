@@ -1,11 +1,11 @@
 <header id="header">
 <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm p-0">
     <div class="container-fluid">
-        <a class="navbar-brand" href="{{ route('front') }}">
+        <a class="navbar-brand ml-3" href="{{ route('front') }}">
 {{--            {{ config('app.name', 'Laravel') }}--}}
             <img src="/img/cbcfl-logo.png">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+        <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -16,6 +16,9 @@
 
             <!-- Right Side Of Navbar -->
             <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">{{ __('Home') }}</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('front') }}#about">{{ __('About Us') }}</a>
                 </li>

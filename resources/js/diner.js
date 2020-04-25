@@ -1,5 +1,8 @@
 $(function() {
     Gmap.populateMap('4650 SW 30th Ave, Fort Lauderdale, FL 33312', 'Community Bible Church');
+    $('.nav-link').on('click', function() {
+        $('#navbarSupportedContent').removeClass('show');
+    });
 });
 
 function checkboxlimit(checkgroup, limit){
