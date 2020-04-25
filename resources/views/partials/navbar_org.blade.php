@@ -1,5 +1,5 @@
 <header id="header">
-<nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm">
+<nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm p-0">
     <div class="container-fluid">
         <a class="navbar-brand" href="{{ route('front') }}">
 {{--            {{ config('app.name', 'Laravel') }}--}}
