@@ -4,6 +4,18 @@
             <h3 class="section-title">Contact</h3>
 
             <div class="card mb-5">
+                <div class="card-header text-center">
+                    Service Times
+                </div>
+                <div class="card-body text-justify">
+                    Community Bible Church Dania Beach is located on the corner of Griffin Road and SW 30th Avenue,
+                    one mile west of I95 and one mile east of 441 in Dania Beach.
+                    We meet every Sunday at 10:30 am for our morning worship service and we connect
+                    through small groups and other activities throughout the week.
+                </div>
+            </div>
+
+            <div class="card mb-5">
                 <div class="card-body">
                     <blockquote class="blockquote mb-0">
                         <p>{{ $contact_scripture }}</p>

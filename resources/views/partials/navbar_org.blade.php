@@ -2,7 +2,8 @@
 <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm">
     <div class="container">
         <a class="navbar-brand" href="{{ route('front') }}">
-            {{ config('app.name', 'Laravel') }}
+{{--            {{ config('app.name', 'Laravel') }}--}}
+            <img src="/img/cbcfl-logo.png">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
             <span class="navbar-toggler-icon"></span>
@@ -27,6 +28,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('front') }}#contact">Contact Us</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('front') }}#contact">Blog</a>
+                </li>
                 <!-- Authentication Links -->
                 @guest
 {{--                    <li class="nav-item">--}}
@@ -40,10 +44,11 @@
                 @else
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                            {{ Auth::user()->name }} <span class="caret"></span>
+                            {{ Auth::user()->first_name }} {{ Auth::user()->last_name }} <span class="caret"></span>
                         </a>
 
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="/home">Admin</a>
                             <a class="dropdown-item" href="{{ route('logout') }}"
                                onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
