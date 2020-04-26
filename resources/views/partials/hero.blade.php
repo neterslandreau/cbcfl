@@ -10,6 +10,6 @@
             Come join us, your community of fellow seekers. Let’s help each other find the answers and find God.
         </h2>
 
-        <a href="#about" class="btn-get-started">Get Started</a>
+        <a id="goto_about" href="#about" class="btn-get-started">Get Started</a>
     </div>
 </section>

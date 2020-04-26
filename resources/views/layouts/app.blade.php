@@ -27,6 +27,7 @@
         <main class="py-0">
             @yield('content')
         </main>
+        @include('partials.footer')
     </div>
     <script async defer src='//maps.google.com/maps/api/js?key={{ env("GMAP_API_KEY") }}'></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/fontawesome.min.js"></script>

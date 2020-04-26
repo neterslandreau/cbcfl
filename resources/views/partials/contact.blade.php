@@ -93,6 +93,10 @@
             </div>
 
         </div>
+        <div class="row">
+            <div class="col-md-1 offset-md-11"><a id="goto_hero" href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a></div>
+        </div>
+
 
     </div>
 </section><!-- End Contact Section -->
