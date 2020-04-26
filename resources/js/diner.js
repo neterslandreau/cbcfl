@@ -11,7 +11,7 @@ $(function() {
         console.log('slug: '+slug);
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#"+slug).offset().top
-        }, 2000);
+        }, 1000);
 
     });
 });
