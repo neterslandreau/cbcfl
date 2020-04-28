@@ -20,16 +20,16 @@
                     <a class="nav-link" href="/">{{ __('Home') }}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('front') }}#about">{{ __('About Us') }}</a>
+                    <a id="menu_about" class="nav-link" href="{{ route('front') }}#about">{{ __('About Us') }}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('front') }}#services">Ministries</a>
+                    <a id="menu_services" class="nav-link" href="{{ route('front') }}#services">Ministries</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('front') }}#team">Team</a>
+                    <a id="menu_team" class="nav-link" href="{{ route('front') }}#team">Team</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('front') }}#contact">Contact Us</a>
+                    <a id="menu_contact" class="nav-link" href="{{ route('front') }}#contact">Contact Us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('front') }}#contact">Blog</a>

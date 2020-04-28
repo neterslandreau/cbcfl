@@ -10,9 +10,9 @@
         <nav id="nav-menu-container">
             <ul class="nav-menu">
                 <li class="menu-active"><a href="/">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a id="menu_about" href="#about">About Us</a></li>
+                <li><a id="menu_services" href="#services">Services</a></li>
+                <li><a id="menu_portfolio" href="#portfolio">Portfolio</a></li>
                 <li><a href="#team">Team</a></li>
                 <li class="menu-has-children"><a href="">Drop Down</a>
                     <ul>
