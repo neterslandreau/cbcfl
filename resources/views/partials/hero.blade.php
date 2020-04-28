@@ -1,5 +1,5 @@
 <section id="hero">
-    <div class="hero-container">
+    <div class="hero-container pt-5 mt-5">
         <h1>Welcome to Our Community</h1>
         <h2>At Community Bible Church of Dania Beach, we help each other through the hard times and through the day-to-day things.
             We celebrate each other, our community and God. Visit our About CBC page to learn more about us.

@@ -93,8 +93,10 @@
             </div>
 
         </div>
-        <div class="row">
-            <div class="col-md-1 offset-md-11"><a id="goto_hero" href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a></div>
+        <div class="row no-gutters">
+            <div class="col-1 no-gutters">&nbsp;</div>
+            <div class="col-10 no-gutters">&nbsp;</div>
+            <div class="col-1 no-gutters"><a id="goto_hero" href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a></div>
         </div>
 
 

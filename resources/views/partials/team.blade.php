@@ -71,9 +71,10 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-1"><a id="goto_contact" href="#" class="back-to-top"><i class="fas fa-chevron-down"></i></a></div>
-            <div class="col-md-1 offset-md-10"><a id="goto_hero" href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a></div>
+        <div class="row no-gutters">
+            <div class="col-1 no-gutters"><a id="goto_contact" href="#" class="back-to-top"><i class="fas fa-chevron-down"></i></a></div>
+            <div class="col-9 no-gutters">&nbsp;</div>
+            <div class="col-1 no-gutters"><a id="goto_hero" href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a></div>
         </div>
 
     </div>
