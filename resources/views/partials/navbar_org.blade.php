@@ -66,7 +66,7 @@
                 </li>
                 <li class="nav-item">
                     <div class="my-menu-holder">
-                    <a class="nav-link" href="{{ route('front') }}#contact">
+                    <a class="nav-link" href="{{ route('blog') }}">
                         <i class="fas fa-blog fa-2x"></i>
                         <span class="menu-text">Blog</span>
                     </a>
