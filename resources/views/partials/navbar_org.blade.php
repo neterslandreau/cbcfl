@@ -12,27 +12,65 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!-- Left Side Of Navbar -->
             <ul class="navbar-nav mr-auto">
+                <li class="nav-item align-content-center">
+                    <div class="my-menu-holder">
+                    <a class="nav-link" href="/">
+                        <i class="fas fa-donate fa-3x" style="color: darkgreen;"></i>
+                        <br><span>Donate</span>
+                    </a>
+                    </div>
+                </li>
             </ul>
 
             <!-- Right Side Of Navbar -->
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a id="menu_hero" class="nav-link" href="/">{{ __('Home') }}</a>
+                <li class="nav-item align-content-center">
+                    <div class="my-menu-holder">
+                    <a id="menu_hero" class="nav-link" href="/">
+                        <i class="fa fa-home fa-2x"></i>
+                        <span class="menu-text">{{ __('Home') }}</span>
+                    </a>
+                    </div>
                 </li>
                 <li class="nav-item">
-                    <a id="menu_about" class="nav-link" href="#">{{ __('About Us') }}</a>
+                    <div class="my-menu-holder">
+                    <a id="menu_about" class="nav-link" href="#">
+                        <i class="fas fa-info-circle fa-2x"></i>
+                        <span class="menu-text">{{ __('About Us') }}</span>
+                    </a>
+                    </div>
                 </li>
                 <li class="nav-item">
-                    <a id="menu_services" class="nav-link" href="{{ route('front') }}#services">Ministries</a>
+                    <div class="my-menu-holder">
+                    <a id="menu_services" class="nav-link" href="{{ route('front') }}#services">
+                        <i class="fas fa-hand-holding-heart fa-2x"></i>
+                        <span class="menu-text">Ministries</span>
+                    </a>
+                    </div>
                 </li>
                 <li class="nav-item">
-                    <a id="menu_team" class="nav-link" href="{{ route('front') }}#team">Team</a>
+                    <div class="my-menu-holder">
+                    <a id="menu_team" class="nav-link" href="{{ route('front') }}#team">
+                        <i class="fas fa-user-friends fa-2x"></i>
+                        <span class="menu-text">Team</span>
+                    </a>
+                    </div>
                 </li>
                 <li class="nav-item">
-                    <a id="menu_contact" class="nav-link" href="{{ route('front') }}#contact">Contact Us</a>
+                    <div class="my-menu-holder">
+                        <a id="menu_contact" class="nav-link" href="{{ route('front') }}#contact">
+                            <i class="far fa-address-book fa-2x"></i>
+                            <span class="menu-text">Contact Us</span>
+                        </a>
+                    </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('front') }}#contact">Blog</a>
+                    <div class="my-menu-holder">
+                    <a class="nav-link" href="{{ route('front') }}#contact">
+                        <i class="fas fa-blog fa-2x"></i>
+                        <span class="menu-text">Blog</span>
+                    </a>
+                    </div>
                 </li>
                 <!-- Authentication Links -->
                 @guest
