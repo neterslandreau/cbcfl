@@ -22,7 +22,7 @@
                     <img class="col-12" src="/img/prayer-team.jpg">
                     <p class="description">Our Prayer Team meets weekly before Sunday morning service to gather and pray for our church, our community and our country. If you would like to join these prayer warriors, please sign up below.</p>
                     <form>
-                        
+
                         <div class="form-row">
                             <div class="col">
                                 <input type="text" class="form-control" placeholder="First name">
