@@ -28,6 +28,7 @@ class ArticlesController extends Controller
         $article = Article::where('slug', $slug)->first();
         $owner = (auth()->id() === $article->user_id);
         $tags = $article->tagnames;
+//        dd($tags);
         return view('articles.show', compact('article', 'tags', 'owner'));
     }
 

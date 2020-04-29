@@ -27,5 +27,8 @@
         "superfish": "^1.7.10",
         "venobox": "^1.8.9",
         "wow": "0.0.6"
+    },
+    "dependencies": {
+        "tagcloud": "^1.1.0-1"
     }
 }

@@ -18,8 +18,22 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
                 <div class="box">
                     <div class="icon"><a href=""><i class="fa fa-desktop"></i></a></div>
-                    <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                    <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                    <h4 class="title"><a href="">Prayer Team</a></h4>
+                    <img class="col-12" src="/img/prayer-team.jpg">
+                    <p class="description">Our Prayer Team meets weekly before Sunday morning service to gather and pray for our church, our community and our country. If you would like to join these prayer warriors, please sign up below.</p>
+                    <form>
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="First name">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Last name">
+                            </div>
+                            <div class="col">
+                                <input type="submit" class="form-control">
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">

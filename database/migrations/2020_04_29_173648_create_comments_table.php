@@ -19,6 +19,7 @@ class CreateCommentsTable extends Migration
             $table->uuid('article_id');
             $table->uuid('user_id');
             $table->string('body');
+            $table->softDeletes();
             $table->timestamps();
         });
     }

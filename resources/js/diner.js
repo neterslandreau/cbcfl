@@ -10,7 +10,7 @@ $(function() {
     $('[id^="goto_"]').on('click', function(e) {
         e.preventDefault();
         let slug = this.id.split('_')[1];
-        console.log('slug: '+slug);
+        // console.log('slug: '+slug);
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#"+slug).offset().top
         }, 1000);
@@ -20,10 +20,17 @@ $(function() {
     $('[id^="menu_"]').on('click', function(e) {
         e.preventDefault();
         let slug = this.id.split('_')[1];
-        console.log('slug: '+slug);
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#"+slug).offset().top
-        }, 1000);
+        // console.log('slug: '+slug);
+        let loc = window.location.pathname;
+        // console.log(JSON.stringify('/#'+slug));
+        if (loc.length > 1) {
+            window.location = '/#'+slug;
+        }
+        else {
+            $([document.documentElement, document.body]).animate({
+                scrollTop: $("#" + slug).offset().top
+            }, 1000);
+        }
 
     });
 });

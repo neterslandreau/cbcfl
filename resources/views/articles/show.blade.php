@@ -13,7 +13,7 @@
         @if ($tags)
             <h4>Tags:</h4>
             <ul class="list-inline">
-                <?php $tags = preg_split('/,/', $tags); ?>
+                <?php //$mtags = preg_split('/,/', $tags); ?>
                 @foreach ($tags as $tag)
                     <li>
                         <a class="btn btn-info" href="/articles/tagged/{{ $tag }}" role="button">{{ $tag }}</a>
