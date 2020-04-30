@@ -1,8 +1,14 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div id="header">
+<nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm p-0">
 
-    <a class="navbar-brand" href="#">Navbar</a>
+<div class="container-fluid">
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand ml-3" href="{{ route('front') }}">
+        {{--            {{ config('app.name', 'Laravel') }}--}}
+        <img src="/img/cbcfl-logo.png">
+    </a>
+
+    <button class="navbar-toggler mr-1" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 
         <span class="navbar-toggler-icon"></span>
 
@@ -10,31 +16,93 @@
 
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-        <ul class="navbar-nav">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item align-content-center">
+                <div class="my-menu-holder">
+                    <a class="nav-link" target="_blank" href="https://crmboost.com/church/give.fwx?compid=10011310">
+                        <i class="fas fa-donate fa-3x" style="color: darkgreen;"></i>
+                        <br><span>Donate</span>
+                    </a>
+                </div>
+            </li>
+        </ul>
 
-            <li class="nav-item active">
-                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-             </li>
-
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item align-content-center">
+                <div class="my-menu-holder">
+                    <a id="menu_hero" class="nav-link" href="/">
+                        <i class="fa fa-home fa-2x"></i>
+                        <span class="menu-text">{{ __('Home') }}</span>
+                    </a>
+                </div>
+            </li>
             <li class="nav-item">
-                 <a class="nav-link" href="#">Features</a>
-             </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <div class="my-menu-holder">
+                    <a id="menu_about" class="nav-link" href="#">
+                        <i class="fas fa-info-circle fa-2x"></i>
+                        <span class="menu-text">{{ __('About Us') }}</span>
+                    </a>
+                </div>
             </li>
 
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown link
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
+            <li class="nav-item">
+                <div class="my-menu-holder">
+                    <a id="menu_team" class="nav-link" href="{{ route('front') }}#team">
+                        <i class="fas fa-user-friends fa-2x"></i>
+                        <span class="menu-text">Team</span>
+                    </a>
                 </div>
+            </li>
+
+            <li class="nav-item">
+                <div class="my-menu-holder">
+                    <a id="menu_contact" class="nav-link" href="{{ route('front') }}#contact">
+                        <i class="far fa-address-book fa-2x"></i>
+                        <span class="menu-text">Contact Us</span>
+                    </a>
+                </div>
+            </li>
+
+
+            <li class="nav-item dropdown my-menu-holder">
+                <a id="navbarMinistries" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-hand-holding-heart fa-2x"></i>
+                    <span class="menu-text">Ministries</span>
+                    <span class="caret"></span>
+                </a>
+
+                <div class="dropdown-menu-right dropdown-menu" aria-labelledby="navbarMinistries">
+                    <ul class="navbar-nav">
+                        <li class="dropdown-item my-menu-holder">
+                            <a class="nav-link" href="{{ route('preschool') }}">
+                                <i class="fas fa-school fa-2x"></i>
+                                <span class="menu-text">Children's Ministry</span>
+                            </a>
+                        </li>
+                        <li class="dropdown-item my-menu-holder">
+                            <a class="nav-link" href="{{ route('prayerteam') }}">
+                                <i class="fas fa-praying-hands fa-2x"></i>
+                                <span class="menu-text">Prayer Team</span>
+                            </a>
+                        </li>
+                        <li class="dropdown-item my-menu-holder">
+                            <a class="nav-link" href="{{ route('women') }}">
+                                <i class="fas fa-praying-hands fa-2x"></i>
+                                <span class="menu-text">Women's Ministry</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item my-menu-holder">
+                <a class="nav-link" href="{{ route('blog') }}">
+                    <i class="fas fa-blog fa-2x"></i>
+                    <span class="menu-text">Blog</span>
+                </a>
             </li>
 
         </ul>
     </div>
+</div>
 </nav>
+</div>

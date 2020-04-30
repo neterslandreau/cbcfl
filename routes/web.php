@@ -19,6 +19,9 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/articles', 'ArticlesController@index')->name('blog');
+Route::get('/childrens-ministry', 'HomeController@preschool')->name('preschool');
+Route::get('/prayer-team', 'HomeController@prayerteam')->name('prayerteam');
+Route::get('/womens-ministry', 'HomeController@women')->name('women');
 //Route::get('/articles' , 'ArticlesController@index');
 Route::get('/articles/create', 'ArticlesController@create');
 Route::get('/articles/{slug}/edit', 'ArticlesController@edit');

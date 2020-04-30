@@ -15,14 +15,14 @@
                 </div>
             </div>
 
-            <div class="card mb-5">
-                <div class="card-body">
-                    <blockquote class="blockquote mb-0">
-                        <p>{{ $contact_scripture }}</p>
-                        <footer class="blockquote-footer">{{ $contact_reference }}</footer>
-                    </blockquote>
-                </div>
-            </div>
+{{--            <div class="card mb-5">--}}
+{{--                <div class="card-body">--}}
+{{--                    <blockquote class="blockquote mb-0">--}}
+{{--                        <p>{{ $contact_scripture }}</p>--}}
+{{--                        <footer class="blockquote-footer">{{ $contact_reference }}</footer>--}}
+{{--                    </blockquote>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
         </div>
     </div>

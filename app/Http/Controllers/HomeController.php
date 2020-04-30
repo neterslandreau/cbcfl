@@ -13,7 +13,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth')->except('front');
+        $this->middleware('auth')->except(['front', 'preschool', 'prayerteam', 'women']);
     }
 
     /**
@@ -38,5 +38,27 @@ class HomeController extends Controller
             'team_reference' => 'Ephesians 4:11-12',
         ];
         return view('front', $data);
+    }
+
+    public function preschool()
+    {
+        $data = [];
+
+        return view('preschool', $data);
+    }
+
+    public function prayerteam()
+    {
+        $data = [];
+
+        return view('prayerteam', $data);
+    }
+
+
+    public function women()
+    {
+        $data = [];
+
+        return view('women', $data);
     }
 }

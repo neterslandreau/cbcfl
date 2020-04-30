@@ -2,7 +2,7 @@
 
 @section ('content')
 {{--    @include('layouts.blog-header')--}}
-<div class="container">
+<div class="container mt-5 pt-5">
     <div class="blog-header">
         <div class="container">
             <h1 class="blog-title">The Neters Group</h1>

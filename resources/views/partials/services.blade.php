@@ -40,8 +40,28 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
                 <div class="box">
                     <div class="icon"><a href=""><i class="fa fa-bar-chart"></i></a></div>
-                    <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                    <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                    <h4 class="title"><a href="">Children's Ministry</a></h4>
+                    <img class="col-12" src="/img/childrens-ministry.jpg">
+                    <h3>A Faith-Based Early Learning Program</h3>
+                    <p class="description">
+                        Academy at Griffin Harbor has been part of our community since 1972. Many of our parishioners grew up in our preschool, and their kids did too. We have families with three generations of AGH graduates as part of our community.
+
+                        We start our students as early as 1 and will keep them enrolled until they’re ready for kindergarten. We are not a daycare with supervised play. We prepare children to enter school and become life-long learners.
+
+                        Academy at Griffin Harbor is located in the church’s old parsonage. Parents can see their kids as soon as they walk in the door, and are welcome to take a tour any time our school is open. We welcome parents in our classrooms. We want you to see what your children are doing and how much fun they’re having.
+                    </p>
+                    <h3>Our Curriculum</h3>
+                    <p class="description">
+                        Our students learn in a structured environment. We want them to know what to expect when they enter kindergarten. Our lessons are based on your child’s age. During the day, they will learn reading, math, arts and crafts, and other academics.
+
+                        We use the A Beka preschool curriculum, which has a Christian perspective. Your child will learn to be independent and self-sufficient in a healthy, faith-based environment.
+
+                        Every Wednesday, our students attend Chapel, where they learn to experience and respect God’s house. We sing, tell bible stories, dance and celebrate God together. Students bring these lessons back into the classroom with them, and use them throughout the rest of the week.
+                    </p>
+                    <h3></h3>
+                    <p class="description">
+
+                    </p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">

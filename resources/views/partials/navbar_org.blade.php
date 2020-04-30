@@ -40,22 +40,16 @@
                     </a>
                     </div>
                 </li>
+
                 <li class="nav-item">
                     <div class="my-menu-holder">
-                    <a id="menu_services" class="nav-link" href="{{ route('front') }}#services">
-                        <i class="fas fa-hand-holding-heart fa-2x"></i>
-                        <span class="menu-text">Ministries</span>
-                    </a>
+                        <a id="menu_team" class="nav-link" href="{{ route('front') }}#team">
+                            <i class="fas fa-user-friends fa-2x"></i>
+                            <span class="menu-text">Team</span>
+                        </a>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <div class="my-menu-holder">
-                    <a id="menu_team" class="nav-link" href="{{ route('front') }}#team">
-                        <i class="fas fa-user-friends fa-2x"></i>
-                        <span class="menu-text">Team</span>
-                    </a>
-                    </div>
-                </li>
+
                 <li class="nav-item">
                     <div class="my-menu-holder">
                         <a id="menu_contact" class="nav-link" href="{{ route('front') }}#contact">
@@ -64,12 +58,48 @@
                         </a>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <div class="my-menu-holder">
-                    <a class="nav-link" href="{{ route('blog') }}">
-                        <i class="fas fa-blog fa-2x"></i>
-                        <span class="menu-text">Blog</span>
+
+                <li class="nav-item dropdown ">
+                    <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-hand-holding-heart fa-2x"></i>
+                        <span class="menu-text">Ministries</span>
+                        <span class="caret"></span>
                     </a>
+
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        <ul class="navbar-nav">
+
+                            <li class="dropdown-item my-menu-holder">
+                                <a class="nav-link" href="{{ route('preschool') }}">
+                                    <i class="fas fa-school fa-2x"></i>
+                                    <span class="menu-text">Children's Ministry</span>
+                                </a>
+                            </li>
+
+                            <li class="dropdown-item my-menu-holder">
+                                <a class="nav-link" href="{{ route('prayerteam') }}">
+                                    <i class="fas fa-praying-hands fa-2x"></i>
+                                    <span class="menu-text">Prayer Team</span>
+                                </a>
+                            </li>
+
+                            <li class="dropdown-item my-menu-holder">
+                                <a class="nav-link" href="{{ route('women') }}">
+                                    <i class="fas fa-praying-hands fa-2x"></i>
+                                    <span class="menu-text">Women's Ministry</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="nav-item my-menu-holder">
+                    <div class="my-menu-holder">
+                        <a class="nav-link" href="{{ route('blog') }}">
+                            <i class="fas fa-blog fa-2x"></i>
+                            <span class="menu-text">Blog</span>
+                        </a>
                     </div>
                 </li>
                 <!-- Authentication Links -->

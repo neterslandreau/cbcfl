@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section ('content')
+<div class="container pt-5 mt-5">
 
     <div class="col-sm-8 blog-main">
 
@@ -34,6 +35,7 @@
         </form>
 
     </div>
+</div>
     <script>
         var tags = [
                 @foreach ($tags as $tag)

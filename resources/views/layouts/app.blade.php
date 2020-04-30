@@ -23,7 +23,7 @@
 </head>
 <body>
     <div id="app">
-        @include('partials.navbar_org')
+        @include('partials.nav2')
         <main class="py-0">
             @yield('content')
         </main>

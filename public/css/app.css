@@ -10895,6 +10895,7 @@ a.text-dark:focus {
 
 .my-menu-holder {
   text-align: center;
+  color: #1b4b72;
 }
 
 @media (max-width: 768px) {

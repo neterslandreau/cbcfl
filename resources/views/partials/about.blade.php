@@ -44,12 +44,15 @@
 
             </div>
 
+            <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
+
         </div>
-        <div class="row no-gutters">
-            <div class="col-1 no-gutters"><a id="goto_services" href="#" class="back-to-top"><i class="fas fa-chevron-down"></i></a></div>
-            <div class="col-10 no-gutters">&nbsp;</div>
-            <div class="col-1 no-gutters"><a id="goto_hero" href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a></div>
-        </div>
+
+{{--        <div class="row no-gutters">--}}
+{{--            <div class="col-1 no-gutters"><a id="goto_services" href="#" class="back-to-top"><i class="fas fa-chevron-down"></i></a></div>--}}
+{{--            <div class="col-10 no-gutters">&nbsp;</div>--}}
+{{--            <div class="col-1 no-gutters"><a id="goto_hero" href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a></div>--}}
+{{--        </div>--}}
 
     </div>
 </section>
