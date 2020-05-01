@@ -1,20 +1,12 @@
 <div class="carousel-inner text-center">
+
+
     <div class="carousel-item active">
         <div class="row">
 
-            @include('pcards.amber')
+            @include('pcards.blank', $staff[0])
 
-            @include('pcards.cher')
-
-        </div>
-    </div>
-
-    <div class="carousel-item">
-        <div class="row">
-
-            @include('pcards.jamie')
-
-            @include('pcards.samala')
+            @include('pcards.blank', $staff[1])
 
         </div>
     </div>
@@ -22,9 +14,19 @@
     <div class="carousel-item">
         <div class="row">
 
-            @include('pcards.shelly')
+            @include('pcards.blank', $staff[2])
 
-            @include('pcards.tammy')
+            @include('pcards.blank', $staff[3])
+
+        </div>
+    </div>
+
+    <div class="carousel-item">
+        <div class="row">
+
+            @include('pcards.blank', $staff[4])
+
+            @include('pcards.blank', $staff[5])
 
         </div>
     </div>

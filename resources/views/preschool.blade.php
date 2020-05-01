@@ -60,11 +60,7 @@
         </div>
         <div class="row">
             <div class="col-12">
-                @if (!$agent->isMobile())
                 @include('partials.preschool_staff')
-                @else
-                    @include('partials.preschool_staff_mobile')
-                @endif
             </div>
         </div>
 
