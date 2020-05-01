@@ -10913,7 +10913,9 @@ a.text-dark:focus {
   border-radius: 50%;
 }
 
-.navbar-nav {
-  overflow: scroll;
+.preschool-role {
+  color: red;
+  font-weight: bold;
+  font-size: 24px;
 }
 

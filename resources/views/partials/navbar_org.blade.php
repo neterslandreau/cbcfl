@@ -32,41 +32,14 @@
                     </a>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <div class="my-menu-holder">
-                    <a id="menu_about" class="nav-link" href="#">
-                        <i class="fas fa-info-circle fa-2x"></i>
-                        <span class="menu-text">{{ __('About Us') }}</span>
-                    </a>
-                    </div>
-                </li>
-
-                <li class="nav-item">
-                    <div class="my-menu-holder">
-                        <a id="menu_team" class="nav-link" href="{{ route('front') }}#team">
-                            <i class="fas fa-user-friends fa-2x"></i>
-                            <span class="menu-text">Team</span>
-                        </a>
-                    </div>
-                </li>
-
-                <li class="nav-item">
-                    <div class="my-menu-holder">
-                        <a id="menu_contact" class="nav-link" href="{{ route('front') }}#contact">
-                            <i class="far fa-address-book fa-2x"></i>
-                            <span class="menu-text">Contact Us</span>
-                        </a>
-                    </div>
-                </li>
-
-                <li class="nav-item dropdown ">
+                <li class="nav-item dropdown">
                     <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="fas fa-hand-holding-heart fa-2x"></i>
                         <span class="menu-text">Ministries</span>
                         <span class="caret"></span>
                     </a>
 
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu dropdown-menu-top" aria-labelledby="navbarDropdown">
                         <ul class="navbar-nav">
 
                             <li class="dropdown-item my-menu-holder">
@@ -91,6 +64,33 @@
                             </li>
 
                         </ul>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <div class="my-menu-holder">
+                    <a id="menu_about" class="nav-link" href="#">
+                        <i class="fas fa-info-circle fa-2x"></i>
+                        <span class="menu-text">{{ __('About Us') }}</span>
+                    </a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <div class="my-menu-holder">
+                        <a id="menu_team" class="nav-link" href="{{ route('front') }}#team">
+                            <i class="fas fa-user-friends fa-2x"></i>
+                            <span class="menu-text">Team</span>
+                        </a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <div class="my-menu-holder">
+                        <a id="menu_contact" class="nav-link" href="{{ route('front') }}#contact">
+                            <i class="far fa-address-book fa-2x"></i>
+                            <span class="menu-text">Contact Us</span>
+                        </a>
                     </div>
                 </li>
 
