@@ -10913,3 +10913,7 @@ a.text-dark:focus {
   border-radius: 50%;
 }
 
+.navbar-nav {
+  overflow: scroll;
+}
+
