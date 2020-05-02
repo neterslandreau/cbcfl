@@ -19,7 +19,7 @@ class ArticlesController extends Controller
         $articles = Article::latest()
             ->filter(request()->input(['date.month', 'date.year']))
             ->get();
-
+//dd(request()->path());
         return view('articles.index', compact('articles'));
     }
 
