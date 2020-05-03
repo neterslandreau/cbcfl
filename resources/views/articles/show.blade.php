@@ -1,12 +1,14 @@
 @extends ('layouts.app')
 @section ('content')
 
-    <div class="col-sm-8 blog-main">
+    <div class="col-sm-8 blog-main pt-5 mt-5">
         <h1>
             {{ $article->title }}
         </h1>
 
         {{ $article->body }}
+
+        {{ $article->user->nickname }}
 
         <hr>
 
@@ -30,7 +32,7 @@
                     <?php //dd($comment->id); ?>
                     <li class="list-group-item">
                         <strong>
-                            {{ $comment->user->username }} said {{ $comment->created_at->diffForHumans() }}: &nbsp;
+                            {{ $comment->user->nickname }} said {{ $comment->created_at->diffForHumans() }}: &nbsp;
                         </strong>
                         {{ $comment->body }}
                     </li>

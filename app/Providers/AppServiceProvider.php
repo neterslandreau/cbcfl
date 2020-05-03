@@ -23,6 +23,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        view()->composer('partials.blog-sidebar', function ($view) {
+            $archives = \App\Article::archives();
+            $tags = \App\Article::existingTags();
+            $view->with(compact('tags', 'archives'));
+        });
     }
 }

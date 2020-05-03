@@ -5,6 +5,7 @@
  */
 
 require('./bootstrap');
+// require('./selectize-bootstrap4-theme');
 // require('node_modules/jquery/dist/jquery.js');
 require('venobox');
 require('./jquery.tagcloud');

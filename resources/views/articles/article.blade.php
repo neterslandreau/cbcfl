@@ -1,4 +1,4 @@
-<div class="blog-post">
+<div class="blog-post pt-5 mt-5">
     <h2 class="blog-post-title">
         <a href="/articles/{{ $article->slug }}">
             {{ $article->title }}
@@ -7,7 +7,7 @@
 
     <p class="blog-post-meta">
 
-        <a href="#">{{ $article->user->username }}</a> on
+        <a href="#">{{ $article->user->nickname }}</a> on
         {{ $article->created_at->toFormattedDateString() }}
 
     </p>

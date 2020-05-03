@@ -29,6 +29,7 @@
         "wow": "0.0.6"
     },
     "dependencies": {
+        "selectize-bootstrap4-theme": "^2.0.2",
         "tagcloud": "^1.1.0-1"
     }
 }

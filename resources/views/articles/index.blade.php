@@ -3,6 +3,8 @@
 @section ('content')
 {{--    @include('layouts.blog-header')--}}
 <div class="container mt-5 pt-5">
+{{--    @include('partials.blog-sidebar')--}}
+    <div class="row">
     <div class="blog-header">
         <div class="container">
             <h1 class="blog-title">The Neters Group</h1>
@@ -21,6 +23,10 @@
             <a class="btn btn-outline-primary" href="#">Older</a>
             <a class="btn btn-outline-secondary disabled" href="#">Newer</a>
         </nav>
+
+    </div>
+
+    @include('partials.blog-sidebar')
 
     </div>
 
