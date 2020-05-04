@@ -496,18 +496,39 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* About Us Section
 --------------------------------*/
 #about {
-    background: #fff;
-    padding: 80px 0;
+    width: 100%;
+    height: 100vh;
+    background: url('/img/hero-background-crop.jpg') top center;
+    background-size: cover;
+    position: relative;
+    padding: 20px;
+}
+/*#about {*/
+/*    background: #fff;*/
+/*    padding: 80px 0;*/
+/*}*/
+#about .about-container {
+    position: relative;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
 }
 
-#about .about-container .background {
-    min-height: 300px;
-    background: url(/img/about-img.jpg) center top no-repeat;
-    margin-bottom: 10px;
-}
+/*#about .about-container .background {*/
+/*    min-height: 300px;*/
+/*    background: url('/img/about-img.jpg') center top no-repeat;*/
+/*    margin-bottom: 10px;*/
+/*}*/
 
 #about .about-container .content {
-    background: #fff;
+    /*background: #fff;*/
 }
 
 #about .about-container .title {
