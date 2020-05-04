@@ -27,7 +27,7 @@
         </div>
     </div>
 
-    <div class="col-8 offset-2">
+    <div class="col-12">
         <iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14336.360359006754!2d-80.1820802!3d26.063312!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2bb516409f226dc9!2sCommunity+Bible+Church!5e0!3m2!1sen!2sus!4v1499360137623" width="100%" height="450" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
     </div>
 
