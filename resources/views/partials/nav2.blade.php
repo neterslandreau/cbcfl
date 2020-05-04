@@ -36,6 +36,34 @@
                     </a>
                 </div>
             </li>
+
+            <li class="nav-item">
+                <div class="my-menu-holder">
+                    <a id="menu_about" class="nav-link" href="{{ route('front') }}#about">
+                        <i class="fas fa-info-circle fa-2x"></i>
+                        <span class="menu-text">{{ __('About Us') }}</span>
+                    </a>
+                </div>
+            </li>
+
+{{--            <li class="nav-item">--}}
+{{--                <div class="my-menu-holder">--}}
+{{--                    <a id="menu_team" class="nav-link" href="{{ route('front') }}#team">--}}
+{{--                        <i class="fas fa-user-friends fa-2x"></i>--}}
+{{--                        <span class="menu-text">Team</span>--}}
+{{--                    </a>--}}
+{{--                </div>--}}
+{{--            </li>--}}
+
+            <li class="nav-item">
+                <div class="my-menu-holder">
+                    <a id="menu_contact" class="nav-link" href="{{ route('front') }}#contact">
+                        <i class="far fa-address-book fa-2x"></i>
+                        <span class="menu-text">Contact Us</span>
+                    </a>
+                </div>
+            </li>
+
             <li class="nav-item dropdown my-menu-holder">
                 <a id="navbarMinistries" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fas fa-hand-holding-heart fa-2x"></i>
@@ -66,33 +94,6 @@
                     </ul>
                 </div>
             </li>
-            <li class="nav-item">
-                <div class="my-menu-holder">
-                    <a id="menu_about" class="nav-link" href="#">
-                        <i class="fas fa-info-circle fa-2x"></i>
-                        <span class="menu-text">{{ __('About Us') }}</span>
-                    </a>
-                </div>
-            </li>
-
-            <li class="nav-item">
-                <div class="my-menu-holder">
-                    <a id="menu_team" class="nav-link" href="{{ route('front') }}#team">
-                        <i class="fas fa-user-friends fa-2x"></i>
-                        <span class="menu-text">Team</span>
-                    </a>
-                </div>
-            </li>
-
-            <li class="nav-item">
-                <div class="my-menu-holder">
-                    <a id="menu_contact" class="nav-link" href="{{ route('front') }}#contact">
-                        <i class="far fa-address-book fa-2x"></i>
-                        <span class="menu-text">Contact Us</span>
-                    </a>
-                </div>
-            </li>
-
 
             <li class="nav-item my-menu-holder">
                 <a class="nav-link" href="{{ route('blog') }}">

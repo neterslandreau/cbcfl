@@ -14,10 +14,10 @@
 
         @if ($tags)
             <h4>Tags:</h4>
-            <ul class="list-inline">
+            <ul class="list-group list-group-horizontal">
                 <?php //$mtags = preg_split('/,/', $tags); ?>
                 @foreach ($tags as $tag)
-                    <li>
+                    <li class="list-group-item">
                         <a class="btn btn-info" href="/articles/tagged/{{ $tag }}" role="button">{{ $tag }}</a>
                     </li>
                 @endforeach

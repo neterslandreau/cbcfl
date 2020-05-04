@@ -1,11 +1,11 @@
-<section id="contact">
+<section id="contact" class="pt-5">
     <div class="container wow fadeInUp">
         <div class="section-header">
-            <h3 class="section-title">Contact</h3>
+            <h3 class="section-title">&nbsp;</h3>
 
             <div class="card mb-5">
                 <div class="card-header text-center">
-                    Service Times
+                    <h3 class="section-title">Come Visit Us!</h3>
                 </div>
                 <div class="card-body text-justify">
                     Community Bible Church Dania Beach is located on the corner of Griffin Road and SW 30th Avenue,
@@ -27,11 +27,16 @@
         </div>
     </div>
 
-    <div class="col-md-12">
-        <div id="map_canvas" style="width: 100%; height: 450px;"></div>
+    <div class="col-8 offset-2">
+        <iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14336.360359006754!2d-80.1820802!3d26.063312!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2bb516409f226dc9!2sCommunity+Bible+Church!5e0!3m2!1sen!2sus!4v1499360137623" width="100%" height="450" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
     </div>
 
+{{--    <div class="col-md-12">--}}
+{{--        <div id="map_canvas"></div>--}}
+{{--    </div>--}}
+
     <div class="container wow fadeInUp mt-5">
+{{--        <h3 class="info-title">Contact Us</h3>--}}
         <div class="row justify-content-center">
 
             <div class="col-lg-3 col-md-4">

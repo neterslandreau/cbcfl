@@ -497,12 +497,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #about {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: url('/img/hero-background-crop.jpg') top center;
     background-size: cover;
     position: relative;
-    padding: 20px;
+    padding: 0px;
 }
+#about:before {
+    content: "";
+    background: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
 /*#about {*/
 /*    background: #fff;*/
 /*    padding: 80px 0;*/
@@ -533,8 +543,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-container .title {
     color: #333;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 32px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -545,6 +557,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-container p {
     line-height: 26px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+
 }
 
 #about .about-container p:last-child {
@@ -552,7 +568,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container .icon-box {
-    background: #fff;
+    /*background: #fff;*/
     background-size: cover;
     padding: 0 0 30px 0;
 }
@@ -560,6 +576,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .about-container .icon-box .icon {
     float: left;
     background: #fff;
+    opacity: 0.7;
     width: 64px;
     height: 64px;
     display: flex;
@@ -578,10 +595,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-container .icon-box .title {
     margin-left: 80px;
-    font-weight: 500;
+    font-weight: 800;
     margin-bottom: 5px;
     font-size: 18px;
     text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
 }
 
 #about .about-container .icon-box .title a {
@@ -898,13 +916,31 @@ body.mobile-nav-active #mobile-nav-toggle {
 */
 /* Contact Section
 --------------------------------*/
+/*#contact {*/
+/*    background: #f7f7f7;*/
+/*    padding: 80px 0 40px 0;*/
+/*}*/
 #contact {
-    background: #f7f7f7;
-    padding: 80px 0 40px 0;
+    width: 100%;
+    height: 100%;
+    background: url('/img/prayer-team.jpg') top center;
+    background-size: cover;
+    position: relative;
+    padding: 0px;
+}
+#contact:before {
+    content: "";
+    background: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
-#contact #google-map {
-    height: 300px;
+#contact #map_canvas {
+    height: 450px;
+    width: 100%;
     margin-bottom: 20px;
 }
 

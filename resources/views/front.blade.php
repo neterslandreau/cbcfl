@@ -6,7 +6,7 @@
 
 @include('partials.about')
 
-@include('partials.team')
+{{--@include('partials.team')--}}
 
 @include('partials.contact')
 

@@ -1,15 +1,7 @@
-<section id="about">
-    <div class="container">
-        <div class="row about-container">
+<section id="about" class="pt-5">
+    <div class="about-container pt-5">
+{{--        <div class="row about-container">--}}
 
-{{--            <div class="card mb-5">--}}
-{{--                <div class="card-body">--}}
-{{--                    <blockquote class="blockquote mb-0">--}}
-{{--                        <p>{{ $contact_scripture }}</p>--}}
-{{--                        <footer class="blockquote-footer">{{ $contact_reference }}</footer>--}}
-{{--                    </blockquote>--}}
-{{--                </div>--}}
-{{--            </div>--}}
 
             <div class="col-lg-6 content order-lg-1 order-2">
                 <h2 class="title">We’re Not That Kind of Church</h2>
@@ -44,9 +36,9 @@
 
             </div>
 
-            <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
+{{--            <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>--}}
 
-        </div>
+{{--        </div>--}}
 
 {{--        <div class="row no-gutters">--}}
 {{--            <div class="col-1 no-gutters"><a id="goto_services" href="#" class="back-to-top"><i class="fas fa-chevron-down"></i></a></div>--}}

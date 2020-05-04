@@ -2,7 +2,7 @@
 
 @section ('content')
 <div class="container pt-5 mt-5">
-
+{{ $tags }}
     <div class="col-sm-8 blog-main">
 
         <h1>Create Article</h1>
@@ -37,8 +37,8 @@
     </div>
 </div>
     <script>
-        var tags = [
-                @foreach ($tags as $tag)
+        let tags = [
+            @foreach ($tags as $tag)
             {tag: "{{ $tag }}" },
             @endforeach
         ];
