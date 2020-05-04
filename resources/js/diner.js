@@ -1,7 +1,7 @@
 $(function() {
-    if (!window.location.pathname.match(/home|articles/)) {
-        Gmap.populateMap('4650 SW 30th Ave, Fort Lauderdale, FL 33312', 'Community Bible Church');
-    }
+    // if (!window.location.pathname.match(/home|articles|prayer-team|womens-ministry|childerns-ministry/)) {
+    //     Gmap.populateMap('4650 SW 30th Ave, Fort Lauderdale, FL 33312', 'Community Bible Church');
+    // }
 
     // $('.nav-link').on('click', function() {
     //     $('#navbarSupportedContent').removeClass('show');
