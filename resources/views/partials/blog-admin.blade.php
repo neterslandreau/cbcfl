@@ -1,3 +1,4 @@
+blog-admin
 @if(isset(auth()->user()->role) && auth()->user()->role == 'staff')
 
     <div class="row">
