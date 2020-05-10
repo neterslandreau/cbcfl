@@ -4,7 +4,7 @@
 {{--    @include('layouts.blog-header')--}}
 <div class="container mt-5 pt-5">
 {{--    @include('partials.blog-sidebar')--}}
-    @include('partials.blog-admin')
+    @include('partials.blog_admin')
     <div class="row">
     <div class="col-sm-8 blog-main">
         <div class="blog-header">
