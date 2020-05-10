@@ -1,14 +1,18 @@
 @extends ('layouts.app')
 @section ('content')
 
-    <div class="col-sm-8 blog-main pt-5 mt-5">
+<div class="container pt-5 mt-5">
+
+    @include('partials.blog-admin')
+    <div class="row pt-2">
+    <div class="col-sm-8 blog-main">
         <h1>
             {{ $article->title }}
         </h1>
 
-        {{ $article->body }}
+        @include('partials.byline')
 
-        {{ $article->user->nickname }}
+        {{ $article->body }}
 
         <hr>
 
@@ -61,4 +65,7 @@
             </div>
         </div>
     </div>
+    @include('partials.blog-sidebar')
+</div>
+</div>
 @endsection

@@ -6,7 +6,12 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+@import '~codemirror/lib/codemirror.css';
+@import '~@toast-ui/editor/dist/toastui-editor.css';
 
+.sidebar-module-inset {
+    background-color: #b5d1ef !important;
+}
 .nav-link {
     display: block;
     padding: 0.5rem 1rem;

@@ -6,9 +6,12 @@
 
 require('./bootstrap');
 require('selectize');
+require('marked');
+require('markdown');
+require('@toast-ui/jquery-editor');
 // require('node_modules/jquery/dist/jquery.js');
 require('venobox');
-require('./jquery.tagcloud');
+require('jquery.tagcloud');
 // require('jquery-waypoints');
 require('superfish');
 require('./diner');

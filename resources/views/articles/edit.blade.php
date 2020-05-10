@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
 @section ('content')
+<div class="container pt-5 mt-5">
+    <div class="row">
 
     <div class="col-sm-8 blog-main">
 
@@ -30,12 +32,16 @@
         </form>
 
     </div>
-    <script>
-        var tags = [
-                @foreach ($allTags as $tag)
-            {tag: "{{ $tag }}" },
-            @endforeach
-        ];
-    </script>
+
+        @include('partials.blog-sidebar')
+    </div>
+</div>
+<script>
+    let tags = [
+        @foreach ($allTags as $tag)
+        {tag: "{{ $tag }}" },
+        @endforeach
+    ];
+</script>
 
 @endsection

@@ -6,6 +6,15 @@ $(function() {
     // $('.nav-link').on('click', function() {
     //     $('#navbarSupportedContent').removeClass('show');
     // });
+    $('#editor').toastuiEditor({
+        height: '500px',
+        initialEditType: 'wysiwyg',
+        previewStyle: 'vertical',
+        toolbarItems: ['all']
+    });
+    const content = $('#editor').toastuiEditor('getHtml');
+
+    console.log(content);
 
     $('[id^="goto_"]').on('click', function(e) {
         e.preventDefault();
@@ -52,6 +61,62 @@ $(function() {
     }
     $('#tagcloud a').tagcloud({
         color: { start: '#3498db', end: '#46cfb0' }
+    });
+
+    $('[id^="btnadmin_"]').on('click', function(e) {
+        let sections = [
+            'site-configuration',
+            'ministry-configuration',
+            'blog-configuration'
+        ];
+        $(sections).each(function(e, section) {
+            if ($('#' + section).hasClass('d-none')) {
+                $('#' + section).removeClass('d-none');
+            }
+            $('#' + section).addClass('d-none')
+        });
+
+        let slug = this.id.split('_')[1];
+
+        if ($('#' +slug).hasClass('d-none')) {
+            $('#' + slug).removeClass('d-none');
+        }
+    });
+
+    $('#site-config').on('click', function() {
+        if (!$('#blog-configuration').hasClass('d-none')) {
+            $('#blog-configuration').addClass('d-none');
+        }
+        if (!$('#ministry-configuration').hasClass('d-none')) {
+            $('#ministry-configuration').addClass('d-none');
+        }
+        if ($('#site-configuration').hasClass('d-none')) {
+            $('#site-configuration').removeClass('d-none');
+        }
+    });
+
+    $('#blog-config').on('click', function() {
+        if ($('#blog-configuration').hasClass('d-none')) {
+            $('#blog-configuration').removeClass('d-none');
+        }
+        if (!$('#ministry-configuration').hasClass('d-none')) {
+            $('#ministry-configuration').addClass('d-none');
+        }
+        if (!$('#site-configuration').hasClass('d-none')) {
+            $('#site-configuration').addClass('d-none');
+        }
+    });
+
+    $('#ministry-config').on('click', function() {
+        if (!$('#blog-configuration').hasClass('d-none')) {
+            $('#blog-configuration').addClass('d-none');
+        }
+        if ($('#ministry-configuration').hasClass('d-none')) {
+            $('#ministry-configuration').removeClass('d-none');
+        }
+        if (!$('#site-configuration').hasClass('d-none')) {
+            $('#site-configuration').addClass('d-none');
+        }
     });
 });
 

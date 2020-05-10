@@ -2,7 +2,8 @@
 
 @section ('content')
 <div class="container pt-5 mt-5">
-{{ $tags }}
+
+    <div class="row">
     <div class="col-sm-8 blog-main">
 
         <h1>Create Article</h1>
@@ -21,7 +22,7 @@
 
             <div class="form-group">
                 <label for="body">Body</label>
-                <textarea id="body" name="body" class="form-control"></textarea>
+                <textarea id="editor" name="body" class="form-control"></textarea>
             </div>
 
             <div class="form-group">
@@ -35,6 +36,9 @@
         </form>
 
     </div>
+        @include('partials.blog-sidebar')
+    </div>
+
 </div>
     <script>
         let tags = [

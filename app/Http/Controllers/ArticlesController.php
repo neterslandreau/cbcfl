@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Article;
 use Carbon\Carbon;
+use \Illuminate\Support\Str;
 
 class ArticlesController extends Controller
 {
@@ -32,7 +33,7 @@ class ArticlesController extends Controller
         return view('articles.show', compact('article', 'tags', 'owner'));
     }
 
-    public function edit(string $slug)
+    public function edit(string $slug, $admin = false)
     {
         $article = Article::where('slug', $slug)->first();
         $articleTags = '';
@@ -56,7 +57,7 @@ class ArticlesController extends Controller
                 }
                 $tags = $article->tagnames;
                 session()->flash('message', 'The article was successfully editted.');
-                return redirect()->home();
+                return redirect('/articles');
             }
 
 
@@ -92,7 +93,7 @@ class ArticlesController extends Controller
 
         session()->flash('message', 'Your article has been published.');
 
-        return redirect()->home();
+        return redirect('/articles');
     }
 
     public function tagged(string $tag)
