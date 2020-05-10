@@ -1,4 +1,4 @@
-@if(auth()->user()->role == 'staff')
+@if(isset(auth()->user()->role) && auth()->user()->role == 'staff')
 
     <div class="row">
         <div class="col-sm-1">
