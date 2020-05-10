@@ -3,7 +3,7 @@
 
 <div class="container pt-5 mt-5">
 
-    @include('partials.blog_admin')
+    @include('partials.blog-admin')
     <div class="row pt-2">
     <div class="col-sm-8 blog-main">
         <h1>
