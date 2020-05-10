@@ -1,7 +1,6 @@
 @if(auth()->user()->role == 'staff')
 
     <div class="row">
-
         <div class="col-sm-1">
             <a href="/articles/create">
                 <button class="btn btn-success btn-sm">New</button>
@@ -19,7 +18,6 @@
                 </a>
             </div>
         @endif
-
     </div>
 
 @endif
