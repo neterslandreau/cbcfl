@@ -26,6 +26,9 @@ class ArticlesController extends Controller
     public function show(string $slug)
     {
         $article = Article::where('slug', $slug)->first();
+        if (!strlen($article->user->nickname)) {
+            $article->user->nickname = $article->user->first_name . ' ' . $article->user->last_name;
+        }
         $owner = (auth()->id() === $article->user_id);
         $tags = $article->tagnames;
         return view('articles.show', compact('article', 'tags', 'owner'));
