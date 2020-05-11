@@ -20,7 +20,11 @@
 
         @endforeach
 
-            <div class="col-2 ml-auto mr-auto pt-5">{{ $articles->links() }}</div>
+            <div class="col-2 ml-auto mr-auto pt-5">
+                @if (!preg_match('/\/tagged\//', request()->path()))
+                {{ $articles->links() }}
+                @endif
+            </div>
 
     </div>
 
