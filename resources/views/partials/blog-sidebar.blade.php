@@ -1,10 +1,9 @@
 <div class="col-sm-3 offset-sm-1 blog-sidebar">
 
     <div class="sidebar-module sidebar-module-inset well rounded-lg">
-        <h4><em>The Neters Group</em></h4>
+        <h4><em>CBC Blog</em></h4>
         <p>
-            Are you tired of hearing news you really don't want to hear?
-            Spend some time here with us, and we'll show you what really boring news can be like!
+            Maecenas mattis ipsum sed leo accumsan, ac pellentesque leo dignissim. Phasellus id nibh ac lorem tempus vehicula.
         </p>
     </div>
 

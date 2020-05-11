@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Article;
 use Carbon\Carbon;
-use \Illuminate\Support\Str;
+use Illuminate\Support\Str;
 
 class ArticlesController extends Controller
 {
@@ -19,8 +19,7 @@ class ArticlesController extends Controller
     {
         $articles = Article::latest()
             ->filter(request()->input(['date.month', 'date.year']))
-            ->get();
-//dd(request()->path());
+            ->paginate(5);
         return view('articles.index', compact('articles'));
     }
 
@@ -29,7 +28,6 @@ class ArticlesController extends Controller
         $article = Article::where('slug', $slug)->first();
         $owner = (auth()->id() === $article->user_id);
         $tags = $article->tagnames;
-//        dd($tags);
         return view('articles.show', compact('article', 'tags', 'owner'));
     }
 

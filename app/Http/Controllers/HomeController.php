@@ -50,7 +50,7 @@ class HomeController extends Controller
                 0 => [
                     'name' => 'Amber Fatout',
                     'role' => 'Lead Three Year Old Teacher',
-                    'email' => 'afatiut@cbcfl.org',
+                    'email' => 'afatout@cbcfl.org',
                     'bio' => '
                         Amber Fatout (pronounced Fattoo) is a native of Hollywood, Florida.
                         Her passion for working with young children began when she was a volunteer for her Aunt’s private in home center.

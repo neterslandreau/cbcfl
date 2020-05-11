@@ -125,10 +125,6 @@
                     </a>
 
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="/home">Admin</a>
-                        @if (preg_match('/article/', request()->path()))
-                            <a class="dropdown-item" href="/articles/create">New Article</a>
-                        @endif
                         <a class="dropdown-item" href="{{ route('logout') }}"
                            onclick="event.preventDefault();
                                 document.getElementById('logout-form').submit();">

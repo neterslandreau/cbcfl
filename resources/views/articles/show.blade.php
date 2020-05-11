@@ -32,12 +32,13 @@
         <div class="comments">
             <ul class="list-group">
 
+                <?php //dump($article->comments); ?>
                 @foreach ($article->comments as $comment)
-                    <?php //dd($comment->id); ?>
+
                     <li class="list-group-item">
-                        <strong>
-                            {{ $comment->user->nickname }} said {{ $comment->created_at->diffForHumans() }}: &nbsp;
-                        </strong>
+                        <span style="font-weight: bold;">
+                            {{ $comment->user->first_name }} {{ $comment->user->last_name }} said {{ $comment->created_at->diffForHumans() }}: &nbsp;
+                        </span>
                         {{ $comment->body }}
                     </li>
                 @endforeach

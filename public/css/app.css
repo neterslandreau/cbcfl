@@ -12980,6 +12980,10 @@ a.text-dark:focus {
   background-color: #b5d1ef !important;
 }
 
+.page-item {
+  border-radius: 50% !important;
+}
+
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
