@@ -7,6 +7,7 @@
             </a>
         </div>
         @if (request()->path() !== 'articles')
+            @if (($owner ?? ''))
             <div class="col-sm-1">
                 <a href="/articles/{{ $article->slug }}/edit">
                     <button class="btn btn-warning btn-sm">Edit</button>
@@ -17,6 +18,7 @@
                     <button class="btn btn-danger btn-sm">Delete</button>
                 </a>
             </div>
+            @endif
         @endif
     </div>
 
