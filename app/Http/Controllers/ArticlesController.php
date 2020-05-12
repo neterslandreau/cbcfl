@@ -30,7 +30,7 @@ class ArticlesController extends Controller
             $article->user->nickname = $article->user->first_name . ' ' . $article->user->last_name;
         }
         $owner = (auth()->id() === $article->user_id);
-        $tags = $article->tagnames;
+        $tags = $article->tags;
         return view('articles.show', compact('article', 'tags', 'owner'));
     }
 

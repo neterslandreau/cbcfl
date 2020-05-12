@@ -23,9 +23,9 @@
                 @foreach ($tags as $tag)
                     <li class="list-group-item p-0 m-0">
                         <div class="my-menu-holder">
-                        <a class="btn btn-link" href="/articles/tagged/{{ $tag }}">
+                        <a class="btn btn-link" href="/articles/tagged/{{ $tag->slug }}">
                             <i class="fas fa-tag fa-1x"></i>
-                            <span class="menu-text">{{ $tag }}</span>
+                            <span class="menu-text">{{ $tag->name }}</span>
                         </a>
                         </div>
                     </li>
