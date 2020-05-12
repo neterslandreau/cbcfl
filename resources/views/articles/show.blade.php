@@ -17,12 +17,17 @@
         <hr>
 
         @if ($tags)
-            <h4>Tags:</h4>
-            <ul class="list-group list-group-horizontal">
+            <h4><i class="fas fa-tags"></i>Tags:</h4>
+            <ul class="list-group list-group-horizontal p-0 m-0">
                 <?php //$mtags = preg_split('/,/', $tags); ?>
                 @foreach ($tags as $tag)
-                    <li class="list-group-item">
-                        <a class="btn btn-info" href="/articles/tagged/{{ $tag }}" role="button">{{ $tag }}</a>
+                    <li class="list-group-item p-0 m-0">
+                        <div class="my-menu-holder">
+                        <a class="btn btn-link" href="/articles/tagged/{{ $tag }}">
+                            <i class="fas fa-tag fa-1x"></i>
+                            <span class="menu-text">{{ $tag }}</span>
+                        </a>
+                        </div>
                     </li>
                 @endforeach
             </ul>
