@@ -18,7 +18,7 @@
 
         @if ($tags)
             <h4>Tags:</h4>
-            <ul class="list-group-horizontal col-xs-1">
+            <ul class="list-group list-group-horizontal">
                 <?php //$mtags = preg_split('/,/', $tags); ?>
                 @foreach ($tags as $tag)
                     <li class="list-group-item">
