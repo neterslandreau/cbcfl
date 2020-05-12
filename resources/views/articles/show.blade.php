@@ -12,13 +12,13 @@
 
         @include('partials.byline')
 
-        {{ $article->body }}
+        {!! $article->body !!}
 
         <hr>
 
         @if ($tags)
             <h4>Tags:</h4>
-            <ul class="list-group list-group-horizontal">
+            <ul class="list-group-horizontal col-xs-1">
                 <?php //$mtags = preg_split('/,/', $tags); ?>
                 @foreach ($tags as $tag)
                     <li class="list-group-item">

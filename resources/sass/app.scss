@@ -7,10 +7,13 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 @import '~codemirror/lib/codemirror.css';
-@import '~@toast-ui/editor/dist/toastui-editor.css';
+@import '~summernote/dist/summernote.css';
 
 .sidebar-module-inset {
     background-color: #b5d1ef !important;
+}
+.blog-post {
+    overflow: scroll !important;
 }
 .nav-link {
     display: block;

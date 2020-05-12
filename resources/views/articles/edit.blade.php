@@ -18,7 +18,7 @@
 
             <div class="form-group">
                 <label for="body">Body</label>
-                <textarea id="body" name="body" class="form-control">{{ $article->body }}</textarea>
+                <textarea id="editor" name="body" class="form-control">{!! $article->body !!}</textarea>
             </div>
 
             <div class="form-group">
