@@ -65,8 +65,8 @@
         </div>
 
         <div class="col-12 pt-3 align-content-center">
-            <h3>Find Us On Facebook</h3>
-            <p class="col-12">
+            <h3 class="col-6 offset-4 pl-5">Find Us On Facebook</h3>
+            <p class="col-6 offset-3">
                 <iframe style="border: none; overflow: hidden;"
                         src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcbcacademydania%2F&amp;tabs=timeline&amp;width=500&amp;height=550&amp;small_header=true&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId"
                         width="100%" height="700" frameborder="0" scrolling="no"></iframe>
