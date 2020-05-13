@@ -58,7 +58,7 @@ class ArticlesController extends Controller
                 }
                 $tags = $article->tagnames;
                 session()->flash('message', 'The article was successfully editted.');
-                return redirect('/articles');
+                return redirect('/articles/'.$article->slug);
             }
 
 
@@ -74,7 +74,7 @@ class ArticlesController extends Controller
         return view('articles.create', compact('tags'));
     }
 
-    public function store()
+    public function store(Request $request)
     {
 
         $this->validate(request(), [
@@ -94,7 +94,7 @@ class ArticlesController extends Controller
 
         session()->flash('message', 'Your article has been published.');
 
-        return redirect('/articles');
+        return redirect('/articles/'.$article->slug);
     }
 
     public function tagged(string $tag)
