@@ -120,7 +120,7 @@
             @else
                 <li class="nav-item dropdown my-menu-holder">
                     <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                        <i class="far fa-user fa-2x"></i>
+                        <i class="far fa-user fa-2x" style="color: #356dac;"></i>
                         <span class="menu-text">{{ Auth::user()->first_name }} <span class="caret"></span></span>
                     </a>
 
