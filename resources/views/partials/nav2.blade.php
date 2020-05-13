@@ -31,7 +31,7 @@
             <li class="nav-item align-content-center">
                 <div class="my-menu-holder">
                     <a id="menu_hero" class="nav-link" href="/">
-                        <i class="fa fa-home fa-2x"></i>
+                        <i class="fa fa-home fa-2x" style="color: #356dac;"></i>
                         <span class="menu-text">{{ __('Home') }}</span>
                     </a>
                 </div>
@@ -40,7 +40,7 @@
             <li class="nav-item">
                 <div class="my-menu-holder">
                     <a id="menu_about" class="nav-link" href="{{ route('front') }}#about">
-                        <i class="fas fa-info-circle fa-2x"></i>
+                        <i class="fas fa-info-circle fa-2x" style="color: #356dac;"></i>
                         <span class="menu-text">{{ __('About Us') }}</span>
                     </a>
                 </div>
@@ -58,7 +58,7 @@
             <li class="nav-item">
                 <div class="my-menu-holder">
                     <a id="menu_contact" class="nav-link" href="{{ route('front') }}#contact">
-                        <i class="far fa-address-book fa-2x"></i>
+                        <i class="far fa-address-book fa-2x" style="color: #356dac;"></i>
                         <span class="menu-text">Contact Us</span>
                     </a>
                 </div>
@@ -66,7 +66,7 @@
 
             <li class="nav-item dropdown my-menu-holder">
                 <a id="navbarMinistries" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fas fa-hand-holding-heart fa-2x"></i>
+                    <i class="fas fa-hand-holding-heart fa-2x" style="color: #356dac;"></i>
                     <span class="menu-text">Ministries</span>
                     <span class="caret"></span>
                 </a>
@@ -75,19 +75,19 @@
                     <ul class="navbar-nav">
                         <li class="dropdown-item my-menu-holder">
                             <a class="nav-link" href="{{ route('preschool') }}">
-                                <i class="fas fa-school fa-2x"></i>
+                                <i class="fas fa-school fa-2x" style="color: #356dac;"></i>
                                 <span class="menu-text">Children's Ministry</span>
                             </a>
                         </li>
                         <li class="dropdown-item my-menu-holder">
                             <a class="nav-link" href="{{ route('prayerteam') }}">
-                                <i class="fas fa-praying-hands fa-2x"></i>
+                                <i class="fas fa-praying-hands fa-2x" style="color: #356dac;"></i>
                                 <span class="menu-text">Prayer Team</span>
                             </a>
                         </li>
                         <li class="dropdown-item my-menu-holder">
                             <a class="nav-link" href="{{ route('women') }}">
-                                <i class="fas fa-praying-hands fa-2x"></i>
+                                <i class="fas fa-praying-hands fa-2x" style="color: #356dac;"></i>
                                 <span class="menu-text">Women's Ministry</span>
                             </a>
                         </li>
@@ -97,7 +97,7 @@
 
             <li class="nav-item my-menu-holder">
                 <a class="nav-link" href="{{ route('blog') }}">
-                    <i class="fas fa-blog fa-2x"></i>
+                    <i class="fas fa-blog fa-2x" style="color: #356dac;"></i>
                     <span class="menu-text">Blog</span>
                 </a>
             </li>
@@ -105,14 +105,14 @@
             @guest
             <li class="nav-item my-menu-holder">
                 <a class="nav-link" href="{{ route('login') }}">
-                    <i class="fas fa-sign-in-alt fa-2x"></i>
+                    <i class="fas fa-sign-in-alt fa-2x" style="color: #356dac;"></i>
                     <span class="menu-text">{{ __('Login') }}</span>
                 </a>
             </li>
                 @if (Route::has('register'))
                 <li class="nav-item my-menu-holder">
                     <a class="nav-link" href="{{ route('register') }}">
-                        <i class="fas fa-clipboard-list fa-2x"></i>
+                        <i class="fas fa-clipboard-list fa-2x" style="color: #356dac;"></i>
                         <span class="menu-text">{{ __('Signup') }}</span>
                     </a>
                 </li>

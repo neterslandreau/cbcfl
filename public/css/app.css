@@ -13267,6 +13267,10 @@ a.text-dark:focus {
   }
 }
 
+.cbcblue {
+  color: #356dac;
+}
+
 .sidebar-module-inset {
   background-color: #b5d1ef !important;
 }
