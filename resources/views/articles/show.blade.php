@@ -5,7 +5,7 @@
 
     @include('partials.blog-admin')
     <div class="row pt-2">
-    <div class="col-sm-8 blog-main">
+    <div class="col-sm-10 blog-main">
         <h1>
             {{ $article->title }}
         </h1>

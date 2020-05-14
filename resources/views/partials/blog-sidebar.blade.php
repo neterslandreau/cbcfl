@@ -1,11 +1,4 @@
-<div class="col-sm-3 offset-sm-1 blog-sidebar">
-
-    <div class="sidebar-module sidebar-module-inset well rounded-lg">
-        <h4><em>CBC Blog</em></h4>
-        <p>
-            Maecenas mattis ipsum sed leo accumsan, ac pellentesque leo dignissim. Phasellus id nibh ac lorem tempus vehicula.
-        </p>
-    </div>
+<div class="col-sm-2 blog-sidebar">
 
     <div class="sidebar-module">
         <h4>Archives</h4>

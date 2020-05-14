@@ -4,7 +4,7 @@
 <div class="container pt-5 mt-5">
 
     <div class="row">
-    <div class="col-sm-8 blog-main">
+    <div class="col-sm-10 blog-main">
 
         <h1>Create Article</h1>
 
@@ -22,7 +22,8 @@
 
             <div class="form-group">
                 <label for="body">Body</label>
-                <textarea id="editor" name="body" class="form-control"></textarea>
+{{--                <textarea id="tngeditor" name="body" class="form-control"></textarea>--}}
+                <div id="editor" name="body"></div>
             </div>
 
             <div class="form-group">
@@ -31,7 +32,7 @@
             </div>
 
             <div class="form-group">
-                <button type="submit" class="btn btn-primary">Publish</button>
+                <button id="publish" type="submit" class="btn btn-primary">Publish</button>
             </div>
         </form>
 

@@ -4,7 +4,7 @@
 <div class="container pt-5 mt-5">
     <div class="row">
 
-    <div class="col-sm-8 blog-main">
+    <div class="col-sm-10 blog-main">
 
         @include ('layouts.errors')
         <form method="post" action="/articles/{{ $article->slug }}/edit">

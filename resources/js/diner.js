@@ -6,18 +6,9 @@ $(function() {
     // $('.nav-link').on('click', function() {
     //     $('#navbarSupportedContent').removeClass('show');
     // });
-    // const content = $('#editor').toastuiEditor('getHtml');
 
-/*    let content = 'hello!'; */
-    // let content = $('#editor').toastuiEditor('getHtml');
-    // $('#editor').toastuiEditor({
-    //     height: '200px',
-    //     initialValue: '<h1>hola!</h1>',
-    //     initialEditType: 'wysiwyg',
-    //     previewStyle: 'vertical',
-    //     toolbarItems: ['all']
-    // });
-    $('#editor').summernote({
+
+    // $('#editor').summernote({
         // toolbar: [
         // 	// [groupName, [list of button]]
         // 	['style', ['bold', 'italic', 'underline', 'clear']],
@@ -28,9 +19,7 @@ $(function() {
         // 	['height', ['height']]
         // 	// ['misc', ['codeview'], ['fullscreen']]
         // ]
-    });
-
-    console.log('editor', $('#editor'));
+    // });
 
     $('[id^="goto_"]').on('click', function(e) {
         e.preventDefault();
@@ -76,7 +65,15 @@ $(function() {
         });
     }
     $('#tagcloud a').tagcloud({
-        color: { start: '#3498db', end: '#46cfb0' }
+        color: {
+            start: '#3498db',
+            end: '#46cfb0'
+        },
+        size: {
+            start: 12,
+            end: 18,
+            unit: 'px'
+        }
     });
 
     $('[id^="btnadmin_"]').on('click', function(e) {
@@ -150,16 +147,6 @@ $(function() {
             }
         });
     }
-    $('#tagcloud a').tagcloud({
-        color: { start: '#3498db', end: '#46cfb0' }
-    });
-
-    // const editor = new toastui.Editor({
-    //     el: document.querySelector('#editor'),
-    //     previewStyle: 'vertical',
-    //     height: '200px',
-    //     initialValue: content
-    // });
 
 });
 

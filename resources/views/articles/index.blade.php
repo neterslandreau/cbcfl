@@ -6,7 +6,7 @@
 {{--    @include('partials.blog-sidebar')--}}
     @include('partials.blog-admin')
     <div class="row">
-    <div class="col-sm-8 blog-main">
+    <div class="col-sm-10 blog-main">
         <div class="blog-header">
             <div class="container">
                 <h1 class="blog-title">CBC Blog</h1>
