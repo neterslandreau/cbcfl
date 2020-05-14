@@ -9,7 +9,7 @@
         </div>
 
         <div class="col-md-8">
-
+            <a id="back-btn" href="#" onclick="javascript:history.back();return false;"><i class="fas fa-arrow-left fa-2x"></i></a>
             <h1>
                 {{ $article->title }}
             </h1>
