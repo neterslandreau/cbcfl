@@ -9,6 +9,7 @@ $(function() {
 
 
     $('#editor').summernote({
+        minHeight: '300px'
         // toolbar: [
         // 	// [groupName, [list of button]]
         // 	['style', ['bold', 'italic', 'underline', 'clear']],
