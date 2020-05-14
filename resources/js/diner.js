@@ -8,7 +8,7 @@ $(function() {
     // });
 
 
-    // $('#editor').summernote({
+    $('#editor').summernote({
         // toolbar: [
         // 	// [groupName, [list of button]]
         // 	['style', ['bold', 'italic', 'underline', 'clear']],
@@ -16,10 +16,10 @@ $(function() {
         // 	['fontsize', ['fontsize']],
         // 	['color', ['color']],
         // 	['para', ['ul', 'ol', 'paragraph']],
-        // 	['height', ['height']]
-        // 	// ['misc', ['codeview'], ['fullscreen']]
+        // 	['height', ['height']],
+        // 	['misc', ['codeview'], ['fullscreen']]
         // ]
-    // });
+    });
 
     $('[id^="goto_"]').on('click', function(e) {
         e.preventDefault();
@@ -131,22 +131,6 @@ $(function() {
             $('#site-configuration').addClass('d-none');
         }
     });
-
-    if (window.location.pathname.match(/create|edit/)) {
-        $('#tags').selectize({
-            delimiter: ',',
-            persist: false,
-            valueField: 'tag',
-            labelField: 'tag',
-            searchField: 'tag',
-            options: tags,
-            create: function(input) {
-                return {
-                    tag: input
-                }
-            }
-        });
-    }
 
 });
 

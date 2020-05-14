@@ -1,10 +1,14 @@
 @extends('layouts.app')
 
 @section ('content')
-<div class="container pt-5 mt-5">
+<div class="container-fluid pt-5 mt-5">
     <div class="row">
 
-    <div class="col-sm-10 blog-main">
+        <div class="col-md-1">
+            @include('partials.admin-overlay')
+        </div>
+
+        <div class="col-sm-8 blog-main">
 
         @include ('layouts.errors')
         <form method="post" action="/articles/{{ $article->slug }}/edit">
@@ -33,7 +37,10 @@
 
     </div>
 
-        @include('partials.blog-sidebar')
+        <div class="col-md-3">
+            @include('partials.blog-sidebar')
+        </div>
+
     </div>
 </div>
 <script>

@@ -1,10 +1,14 @@
 @extends('layouts.app')
 
 @section ('content')
-<div class="container pt-5 mt-5">
-
+<div class="container-fluid pt-5 mt-5">
     <div class="row">
-    <div class="col-sm-10 blog-main">
+
+        <div class="col-md-1">
+            @include('partials.admin-overlay')
+        </div>
+
+    <div class="col-md-8">
 
         <h1>Create Article</h1>
 
@@ -22,8 +26,8 @@
 
             <div class="form-group">
                 <label for="body">Body</label>
-{{--                <textarea id="tngeditor" name="body" class="form-control"></textarea>--}}
-                <div id="editor" name="body"></div>
+                <textarea id="editor" name="body" class="form-control"></textarea>
+{{--                <div id="editor" name="body"></div>--}}
             </div>
 
             <div class="form-group">
@@ -37,16 +41,21 @@
         </form>
 
     </div>
-        @include('partials.blog-sidebar')
+
+        <div class="col-md-3">
+            @include('partials.blog-sidebar')
+        </div>
+
     </div>
 
 </div>
-    <script>
-        let tags = [
-            @foreach ($tags as $tag)
-            {tag: "{{ $tag }}" },
-            @endforeach
-        ];
-    </script>
+
+<script>
+    let tags = [
+        @foreach ($tags as $tag)
+        {tag: "{{ $tag }}" },
+        @endforeach
+    ];
+</script>
 
 @endsection

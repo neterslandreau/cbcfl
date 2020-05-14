@@ -9,12 +9,16 @@ require('selectize');
 require('marked');
 require('markdown');
 require('summernote');
-// require('@toast-ui/jquery-editor');
+// require('@toast-ui/jquery-editor/dist/toastui-jquery-editor.js');
+// require('@toast-ui/jquery-editor/dist/toastui-jquery-editor-viewer.js');
+// require('@toast-ui/editor');
+// require('@toast-ui/editor-viewer');
 // require('node_modules/jquery/dist/jquery.js');
 require('venobox');
 require('./jquery.tagcloud');
 // require('jquery-waypoints');
 require('superfish');
+// require('./teditor');
 require('./diner');
 
 window.Vue = require('vue');

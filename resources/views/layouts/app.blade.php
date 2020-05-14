@@ -33,5 +33,6 @@
         </main>
         @include('partials.footer')
 {{--    </div>--}}
+@include('modals.blog-admin')
 </body>
 </html>

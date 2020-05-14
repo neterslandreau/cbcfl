@@ -1,4 +1,4 @@
-<div class="col-sm-2 blog-sidebar">
+<div class="blog-sidebar">
 
     <div class="sidebar-module">
         <h4>Archives</h4>

@@ -1,34 +1,37 @@
 @extends ('layouts.app')
 
 @section ('content')
-{{--    @include('layouts.blog-header')--}}
-<div class="container mt-5 pt-5">
-{{--    @include('partials.blog-sidebar')--}}
-    @include('partials.blog-admin')
+<div class="container-fluid pt-5 mt-5">
     <div class="row">
-    <div class="col-sm-10 blog-main">
-        <div class="blog-header">
-            <div class="container">
-                <h1 class="blog-title">CBC Blog</h1>
-                <p class="lead blog-description">Praesent congue nunc velit, sit amet eleifend dui malesuada ut.</p>
-            </div>
+
+        <div class="col-md-1">
+            @include('partials.admin-overlay')
         </div>
 
-        @foreach ($articles as $article)
+        <div class="col-md-8">
 
-            @include('articles.article')
+            <div class="blog-header">
+                <h1>CBC Blog</h1>
+                <p class="lead blog-description">Praesent congue nunc velit, sit amet eleifend dui malesuada ut.</p>
+            </div>
 
-        @endforeach
+            @foreach ($articles as $article)
+
+                @include('articles.article')
+
+            @endforeach
 
             <div class="col-2 ml-auto mr-auto pt-5">
                 @if (!preg_match('/\/tagged\//', request()->path()))
-                {{ $articles->links() }}
+                    {{ $articles->links() }}
                 @endif
             </div>
 
-    </div>
+        </div>
 
-    @include('partials.blog-sidebar')
+        <div class="col-md-3">
+            @include('partials.blog-sidebar')
+        </div>
 
     </div>
 
