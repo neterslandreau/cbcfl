@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <div class="container pt-5 mt-5">
+    <div class="container-fluid pt-5 mt-5">
 
         <div class="col-12" style="text-align:center;color:lightseagreen">
 
@@ -13,7 +13,7 @@
 
         <div class="row">
 
-            <div class="col-sm">
+            <div class="col-sm-6">
                 <img class="col-12" src="/img/childrens-ministry.jpg">
 
                 <h3 class="pt-2">A Faith-Based Early Learning Program</h3>
@@ -33,7 +33,7 @@
                 </p>
             </div>
 
-            <div class="col-sm">
+            <div class="col-sm-6">
                 <h3 class="pt-2">Enrolling Your Child</h3>
                 <p class="description">
                     We keep our class sizes small so your child gets the attention he or she deserves. While we are
