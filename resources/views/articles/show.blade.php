@@ -8,7 +8,7 @@
             @include('partials.admin-overlay')
         </div>
 
-        <div class="col-md-8">
+        <div class="col-md-8 pt-3 pb-3">
             <a id="back-btn" href="#" onclick="javascript:history.back();return false;"><i class="fas fa-arrow-left fa-2x"></i></a>
             <h1>
                 {{ $article->title }}
