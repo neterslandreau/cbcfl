@@ -50,6 +50,9 @@ $(function() {
 
     });
 
+    $('#back-btn').on('click', function() {
+        javascript:history.back();
+    });
     if (window.location.pathname.match(/create|edit/)) {
         $('#tags').selectize({
             delimiter: ',',
