@@ -16,7 +16,7 @@ class Model extends Eloquent
 
     protected $dates = ['deleted_at'];
 
-    public function sluggable()
+    public function sluggable(): array
     {
         return [
             'slug' => [

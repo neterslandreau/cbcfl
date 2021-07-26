@@ -18,7 +18,7 @@ class ArticlesController extends Controller
     public function index()
     {
         $articles = Article::latest()
-            ->filter(request()->input(['date.month', 'date.year']))
+//            ->filter(request()->input(['date.month', 'date.year']))
             ->paginate(5);
         return view('articles.index', compact('articles'));
     }
