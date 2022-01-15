@@ -34,7 +34,7 @@
         "@toast-ui/editor": "^2.1.0",
         "@toast-ui/jquery-editor": "^2.1.0",
         "markdown": "^0.5.0",
-        "marked": "^1.0.0",
+        "marked": "^4.0.10",
         "selectize": "^0.12.6",
         "selectize-bootstrap4-theme": "^2.0.2",
         "summernote": "^0.8.16",
