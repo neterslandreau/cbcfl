@@ -31,7 +31,7 @@
     "dependencies": {
         "@ckeditor/ckeditor5-core": "^35.4.0",
         "@ckeditor/ckeditor5-ui": "^35.4.0",
-        "@toast-ui/editor": "^2.1.0",
+        "@toast-ui/editor": "^2.2.0",
         "@toast-ui/jquery-editor": "^2.1.0",
         "markdown": "^0.5.0",
         "marked": "^4.0.10",
